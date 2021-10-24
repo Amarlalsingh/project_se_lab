@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Admin login page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="loginPage.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="full-page container-fluid">
+			<div class="col-sm-12 navbar bg-primary navi">
+				<div class="col-md-2 col-12" style="text-align: center;">
+					<img src="logo.png" id="logo" alt="logo" width="100px">
+				</div>	
+				<div class="col-md-7 col-12" style="text-align: center;">
+					<span> भारतीय प्रौद्योगिकी संस्थान  
+						<span style="font-family:arial">(भारतीय&nbsp;खनि&nbsp;विद्यापीठ), धनबाद</span>
+					</span>
+					<br>
+					<span class="border1" style="color: white; font-size:115%;">INDIAN INSTITUTE OF TECHNOLOGY (INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</span>
+				</div>
+				<div class="col-md-1 col-12" style="text-align: center;">
+					<a href="loginPage.html">USERS</a>
+				</div>
+				<div class="col-md-1 col-12 active" style="text-align: center;">
+					<a href="admin_login.html" style="color: white">ADMIN</a>	
+				</div>
+			</div>
+			<div class="part2" style="text-align: -webkit-center;">
+				<div id="login-form" class="login-page">
+			        <div class="form-box">
+			          	<div class="button-box btn-group">
+			            	<div id="btn1"></div>
+			            	<button type="button" onclick="login()" class="toggle-btn " >
+			              		Admin Log In
+			            	</button>
+			          	</div>
+			          	<form id="login" class="input-group-login">
+				            <input
+				              id="email"
+				              type="email"
+				              class="input-field"
+				              placeholder="Email"
+				              required
+				            />
+				            <input
+				              id="lpass"
+				              type="password"
+				              class="input-field"
+				              placeholder="Enter Password"
+				              required
+				              maxlength="10"
+				            />
+				            <input type="checkbox" class="check-box" /><span style="color: grey" 
+				              >Remember Password</span
+				            >
+							<button type="submit" class="submit-btn" style="margin: auto;">Log In</button>
+			         	</form>
+			        </div>
+      			</div>
+			</div>
+		</div>
+	</body>
+</html>			

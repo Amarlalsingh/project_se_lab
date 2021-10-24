@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>admin-add-adv</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="loginPage.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="full-page container-fluid">
+			<div class="col-sm-12 navbar bg-primary navi">
+				<div class="col-md-2 col-12" style="text-align: center;">
+					<img src="logo.png" id="logo" alt="logo" width="100px">
+				</div>	
+				<div class="col-md-10 col-12" style="text-align: left;">
+					<span> भारतीय प्रौद्योगिकी संस्थान  
+						<span style="font-family:arial">(भारतीय&nbsp;खनि&nbsp;विद्यापीठ), धनबाद</span>
+					</span>
+					<br>
+					<span class="border1" style="color: white; font-size:115%;">INDIAN INSTITUTE OF TECHNOLOGY (INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</span>
+				</div>
+			</div>
+			<div class="part3 col-12">
+				<div class="col-6 cp"><a href="">Change Password</a></div>
+				<div class="col-6 cp" style="text-align: right;"><a href="loginPage.html">Log Out</a></div>
+			</div>
+			<div class="col-12 back">
+				<a href="admin-home.html"> Back to Home Page</a>
+			</div>
+			<div class="text">
+				Add Advertisement
+			</div>
+			<div class="ApplyForm col-12" >
+				<form>
+					<div class="form-group row">
+					    <label for="inputEmail3" class="col-sm-3 col-form-label">Advertisement No. :</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="inputEmail3" placeholder="Enter Advertisement number">
+	                    </div>
+					</div>
+					<div class="form-group row">
+					    <label for="inputEmail3" class="col-sm-3 col-form-label">Post Type :</label>
+					    <div class="col-sm-9">
+					    	<select id="inputState" class="form-control">
+					        	<option selected>--Select One--</option>
+						        <option>Faculty</option>
+		                    </select>
+		                </div>
+					</div>
+					<div class="form-group row">
+						<label for="inputEmail3" class="col-sm-3 col-form-label">Select Faculty Type :</label>
+						<div class="col-sm-9">
+							<select id="inputState1" class="form-control">
+						        <option selected>--Select One--</option>
+						        <option>Professor</option>
+	                        </select>
+		                </div>
+					</div>
+					<div class="form-group row">
+					    <label for="inputEmail3" class="col-sm-3 col-form-label">Open Date :</label>
+						<div class="col-sm-9">
+							<input type="date" class="form-control" id="inputEmail31" placeholder="--Select date--">
+	                    </div>
+					</div>
+					<div class="form-group row">
+					    <label for="inputEmail3" class="col-sm-3 col-form-label">Closing Date :</label>
+						<div class="col-sm-9">
+							<input type="date" class="form-control" id="inputEmail32" placeholder="--Select date--">
+	                    </div>
+					</div>
+					<div class="form-group row">
+    					<label class="col-sm-3 col-form-label" for="exampleFormControlTextarea1">Remark :</label>
+    					<div class="col-sm-9">
+    						<textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    					</div>
+  					</div>
+  					<div class="form-group row">
+					    <label for="inputEmail3" class="col-sm-3 col-form-label">Choose Document: </label>
+						<div class="col-sm-9">
+							<input type="file" class="form-control" id="inputEmail33">
+	                    </div>
+					</div>
+					<div class="form-group row" style="justify-content: center;">
+					    <button class="col-3">Add Advertisement</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,253 @@
+body{
+	margin: 0px auto;
+}
+
+a{
+	color: black;
+}
+
+.active{
+	text-decoration-line: underline;
+	color: white;
+}
+.container-fluid {
+	padding: 0px;
+	margin: 0px;
+}
+.form-box {
+  width: 380px;
+  height: 580px;
+  position: relative;
+  /*margin: 2% auto;*/
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+
+}
+
+.button-box {
+  width: 100%;
+  margin: 35px auto;
+  position: relative;
+  display: inline-flex;
+  border-radius: 30px;
+  justify-content: center;
+  /*margin-left: 60px;*/
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn {
+  top: 0;
+  left: 66px;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: #226ac9;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#btn1 {
+  top: 0;
+  left: 122px;
+  position: absolute;
+  width: 115px;
+  height: 100%;
+  background: #226ac9;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.toggle-btn {
+  color: white;
+}
+
+.input-group-login {
+  top: 150px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+
+.input-group-register {
+  top: 120px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+
+  background: #226ac9;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+}
+
+.check-box {
+  margin: 30px 10px 34px 0;
+}
+.check-box span{
+	color: grey;
+}
+#login {
+  left: 50px;
+}
+#login input {
+  color: white;
+  font-size: 15;
+}
+#register {
+  left: 450px;
+}
+#register input {
+  color: white;
+  font-size: 15;
+}
+
+.part2{
+	background-image: url("01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*padding: 20px;*/
+}
+#login-form{
+	padding-top: 2%;
+	/*padding-left: 38%;*/
+	padding-bottom: 2%;
+}
+.cp{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+.part3 div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.part3{
+	background-color: black;
+	display: inline-flex;
+	
+}
+.part3 a{
+	color: white;
+}
+
+.box1{
+	background-color: #007bff;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid black;
+	border-radius: 22px;
+}
+.box1 a{
+	color: white;
+    font-size: 17px;
+
+}
+.text{
+	text-align: center;
+	margin-top: 50px;
+    margin-bottom: 42px;
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    /*text-transform: capitalize;*/
+}
+.ApplyForm{
+	width: 50%; border: 2px solid black;
+	margin: auto;
+}
+.ApplyForm .row{
+	margin-top: 10px;
+}
+.sidenav {
+  height: 100%; 
+  width: 160px;  
+  background-color: #111; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 13px 8px 13px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  color: #818181;
+  display: block;
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.ender {
+  height: 100%;
+}
+
+.ender a {
+  height: 100%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media only screen and (min-width: 768px) {
+  .part5 {
+   	display: flex;
+  }
+}
+@media only screen and (max-width: 768px) {
+	.part5 .sidenav{
+		width: 100%;
+		text-align: center;
+	}
+	}
+
+html , body{
+	height: 100%;
+
+}
+.back{
+	margin-top: 20px;
+    margin-left: 20px;
+} 
+
+.back a{
+	font-size: 17px;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
